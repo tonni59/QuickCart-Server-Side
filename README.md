@@ -98,33 +98,5 @@ npm run dev
 
 ### 📦Server NPM Dependencies
 
-{
-  "dependencies": {
-    "@tanstack/react-query": "^5.64.2",
-    "axios": "^1.7.9",
-    "firebase": "^11.1.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-helmet-async": "^2.0.5",
-    "react-hook-form": "^7.54.2",
-    "react-icons": "^5.4.0",
-    "react-modal": "^3.16.3",
-    "react-rating": "^2.0.5",
-    "react-rating-stars-component": "^2.2.0",
-    "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^7.1.1",
-    "react-toastify": "^11.0.3",
-    "sort-by": "^1.2.0",
-    "sweetalert2": "^11.15.10",
-    "swiper": "^11.2.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.20",
-    "daisyui": "^4.12.23",
-    "eslint": "^9.17.0",
-    "postcss": "^8.5.0",
-    "tailwindcss": "^3.4.17",
-    "vite": "^6.0.5"
-  }
-}
+- **Backend: express, mongoose, bcryptjs, jsonwebtoken, dotenv, multer, nodemon
+- **Frontend: react, react-router-dom, axios, tailwindcss
