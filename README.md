@@ -1,6 +1,6 @@
-# QuickCart - Full Stack E-commerce Website
+# 📌 QuickCart – Full Stack E-Commerce Website
 
-## Project Overview
+## 🚀 Project Overview
 QuickCart is a full-stack e-commerce platform designed to provide a smooth online shopping experience. It features product browsing, cart management, secure checkout, and an admin dashboard for managing products and orders.
 
 ### 🔑Default Credentials
