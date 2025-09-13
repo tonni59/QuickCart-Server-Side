@@ -58,7 +58,7 @@ QuickCart is a full-stack e-commerce platform designed to provide a smooth onlin
 
 ## ⚙️ Setup & Installation
 
-### ⚙️ Client Setup
+### 🛠 Client Setup
 1. Clone the client repository:
    ```bash
    git clone https://github.com/tonni59/QuickCart-Client-Side.git
