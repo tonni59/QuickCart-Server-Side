@@ -70,7 +70,32 @@ QuickCart is a full-stack e-commerce platform designed to provide a smooth onlin
    ```
 3. Create a .env file in the root and add:
    ```bash
-   REACT_APP_API_URL=http://localhost:5000
+         # ==========================
+      # 🌐 API Config
+    # ==========================
+    VITE_API_URL=http://localhost:5000/api
+
+    # ==========================
+    # 💳 Payment Gateway (Public Keys Only)
+    # ==========================
+    VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key
+    VITE_PAYPAL_CLIENT_ID=your_paypal_client_id
+
+    # ==========================
+    # 🔑 Firebase (if used for Auth/Storage)
+    # ==========================
+    VITE_FIREBASE_API_KEY=your_firebase_api_key
+    VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+    VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
+    VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+    VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_id
+    VITE_FIREBASE_APP_ID=your_firebase_app_id
+
+    # ==========================
+    # 📊 Analytics / Monitoring
+    # ==========================
+    VITE_GA_TRACKING_ID=your_google_analytics_tracking_id
+ 
    ```
 4. Start development server:
    ```bash
@@ -89,9 +114,66 @@ QuickCart is a full-stack e-commerce platform designed to provide a smooth onlin
    ```
 3. Create a .env file in the root and add:
    ```bash
+    # ==========================
+    # 🔧 Server & Database
+    # ==========================
+     PORT=5000
+    NODE_ENV=development
     MONGO_URI=your_mongodb_connection_string
+
+    # ==========================
+    # 🔐 Authentication & Security
+    # ==========================
     JWT_SECRET=your_jwt_secret
+    JWT_EXPIRES_IN=7d
+    COOKIE_SECRET=your_cookie_secret
+
+    # ==========================
+    # 🌐 Client Config
+    # ==========================
     CLIENT_URL=http://localhost:3000
+
+     # ==========================
+     # 💳 Payment Gateways
+     # ==========================
+    STRIPE_SECRET_KEY=your_stripe_secret_key
+    PAYPAL_CLIENT_ID=your_paypal_client_id
+    PAYPAL_CLIENT_SECRET=your_paypal_client_secret
+
+    # ==========================
+    # 📧 Email / Notifications
+    # ==========================
+    SMTP_HOST=smtp.yourmail.com
+    SMTP_PORT=587
+    SMTP_USER=your_email@example.com
+    SMTP_PASS=your_email_password
+    EMAIL_FROM=no-reply@yourdomain.com
+
+    # ==========================
+    # ☁️ Cloud Storage (e.g., Cloudinary, AWS S3)
+    # ==========================
+    CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+    CLOUDINARY_API_KEY=your_cloudinary_api_key
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+    # ==========================
+    # 🔑 Third-Party Auth Integrations
+    # ==========================
+    GOOGLE_CLIENT_ID=your_google_oauth_client_id
+    GOOGLE_CLIENT_SECRET=your_google_oauth_client_secret
+    FACEBOOK_APP_ID=your_facebook_app_id
+    FACEBOOK_APP_SECRET=your_facebook_app_secret
+
+    # ==========================
+    # 📊 Analytics / Monitoring
+    # ==========================
+    SENTRY_DSN=your_sentry_error_tracking_dsn
+
+    # ==========================
+    # ⚡ Caching / Performance
+    # ==========================
+   REDIS_URI=redis://localhost:6379
+
 
    ```
 4. Start the server:
